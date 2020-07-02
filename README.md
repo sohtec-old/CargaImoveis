@@ -46,6 +46,8 @@ Enviar o json abaixo via **POST**
             "Bairro":"XXXXX",
             "Cidade":"XXXXX",
             "Estado":"XXXXX",
+            "Vagas":"1",
+            "Dormitorios":"2",
             "UrlFoto":"http://www.dominio.com.br/foto.jpg",
             "UrlDetalheImovel":"http://www.dominio.com.br/detalhe/12345",
             "PrecoLocacao": 2400, //Requerido
