@@ -45,6 +45,7 @@ Enviar o json abaixo via **POST**
             "Complemento":"XXXXX",
             "Bairro":"XXXXX",
             "Cidade":"XXXXX",
+            "Cep":"XXXXX",
             "Estado":"XXXXX",
             "Vagas":"1",
             "Dormitorios":"2",
