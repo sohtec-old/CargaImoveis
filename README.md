@@ -38,7 +38,7 @@ Enviar o json abaixo via **POST**
 {
     "Imoveis":[
         {            
-            "Codigo":"0001", //Requirido
+            "Codigo":"0001", //Requerido
             "TipoImovel":"Apartamento",
             "Endereco":"XXXXX",
             "Numero":"000",
@@ -48,10 +48,10 @@ Enviar o json abaixo via **POST**
             "Estado":"XXXXX",
             "UrlFoto":"http://www.dominio.com.br/foto.jpg",
             "UrlDetalheImovel":"http://www.dominio.com.br/detalhe/12345",
-            "PrecoLocacao": 2400, //Requirido
-            "PrecoVenda": 600000, //Requirido
-            "ValorCondominio":"600",
-            "ValorIptu":"800",
+            "PrecoLocacao": 2400, //Requerido
+            "PrecoVenda": 600000, //Requerido
+            "ValorCondominio": 600,
+            "ValorIptu": 800,
             "CaptadorNome":"Fulano",
             "CaptadorEmail":"xxxx@dominio.com.br",
             "ProprietarioNome":"Fulano",
