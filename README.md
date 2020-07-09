@@ -40,21 +40,21 @@ Enviar o json abaixo via **POST**
         {            
             "Codigo":"0001", //Requerido
             "TipoImovel":"Apartamento",
-            "Endereco":"XXXXX",
-            "Numero":"000",
-            "Complemento":"XXXXX",
-            "Bairro":"XXXXX",
-            "Cidade":"XXXXX",
-            "Cep":"XXXXX",
-            "Estado":"XXXXX",
+            "Endereco":"Av. Fiqueiredo",
+            "Numero":"530",
+            "Complemento":"Casa 6",
+            "Bairro":"Centro",
+            "Cidade":"Porto Alegre",
+            "Cep":"00000-000",
+            "Estado":"RS",
             "Vagas": 1,
             "Dormitorios": 2,
-            "UrlFoto":"http://www.dominio.com.br/foto.jpg",
+            "UrlFoto":"http://www.dominio.com.br/foto.jpg", //Primeira foto do imóvel se existir.
             "UrlDetalheImovel":"http://www.dominio.com.br/detalhe/12345",
             "PrecoLocacao": 2400, //Requerido
             "PrecoVenda": 600000, //Requerido
-            "ValorCondominio": 600,
-            "ValorIptu": 800,
+            "ValorCondominio": 600.50,
+            "ValorIptu": 830.20,
             "CaptadorNome":"Fulano",
             "CaptadorEmail":"xxxx@dominio.com.br",
             "ProprietarioNome":"Fulano",
