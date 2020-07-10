@@ -63,7 +63,7 @@ Enviar o json abaixo via **POST**
     ]
 }
 ```
-**Obs:** E-mails não formatados corretamento serão desconsiderados e não vinculados a captadores e proprieários. 
+**Obs:** E-mails não formatados corretamente serão desconsiderados e não vinculados a captadores e proprieários. 
 
 Se os dados estiverem ok o sistema retornará o seguinte JSON.
 Exemplo de retorno:
