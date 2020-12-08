@@ -76,7 +76,7 @@ Exemplo de retorno:
 ```
 
 ### Ativar um imóvel dentro da SOHTEC
-Url: https://sohtec.com.br/services/api/AtivarImoveis
+Url: https://sohtec.com.br/services/api/ativarImoveis
 
 Enviar no **Header** da chamada os seguintes parametros:
 ```javascript {.line-numbers}
@@ -96,7 +96,7 @@ Enviar o json abaixo via **POST**
 ```
 
 ### Desativar um imóvel dentro da SOHTEC
-Url: https://sohtec.com.br/services/api/DesativaImoveis
+Url: https://sohtec.com.br/services/api/desativarImoveis
 
 Enviar no **Header** da chamada os seguintes parametros:
 ```javascript {.line-numbers}
