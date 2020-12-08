@@ -74,3 +74,43 @@ Exemplo de retorno:
     "Data": null
 }
 ```
+
+### Ativar um imóvel dentro da SOHTEC
+Url: https://sohtec.com.br/services/api/AtivarImoveis
+
+Enviar no **Header** da chamada os seguintes parametros:
+```javascript {.line-numbers}
+Content-Type: application/json
+Authorization: Bearer AQUI_VAI_O_TOKEN
+```
+Enviar o json abaixo via **POST** 
+```javascript {.line-numbers}
+{
+    "Imoveis":[
+        {
+            "Codigo":"0002",
+            "Finalidade":"LOCACAO"
+        }
+    ]
+}
+```
+
+### Desativar um imóvel dentro da SOHTEC
+Url: https://sohtec.com.br/services/api/DesativaImoveis
+
+Enviar no **Header** da chamada os seguintes parametros:
+```javascript {.line-numbers}
+Content-Type: application/json
+Authorization: Bearer AQUI_VAI_O_TOKEN
+```
+Enviar o json abaixo via **POST** 
+```javascript {.line-numbers}
+{
+    "Imoveis":[
+        {
+            "Codigo":"0002",
+            "Finalidade":"LOCACAO"
+        }
+    ]
+}
+```
