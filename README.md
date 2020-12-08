@@ -89,7 +89,7 @@ Enviar o json abaixo via **POST**
     "Imoveis":[
         {
             "Codigo":"0002",
-            "Finalidade":"LOCACAO"
+            "Finalidade":"LOCACAO" //Ou VENDAS
         }
     ]
 }
@@ -109,7 +109,7 @@ Enviar o json abaixo via **POST**
     "Imoveis":[
         {
             "Codigo":"0002",
-            "Finalidade":"LOCACAO"
+            "Finalidade":"LOCACAO" //Ou VENDAS
         }
     ]
 }
