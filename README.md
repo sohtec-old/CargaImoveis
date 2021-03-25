@@ -58,7 +58,8 @@ Enviar o json abaixo via **POST**
             "CaptadorNome":"Fulano",
             "CaptadorEmail":"xxxx@dominio.com.br",
             "ProprietarioNome":"Fulano",
-            "ProprietarioEmail":"xxxx@dominio.com.br"
+            "ProprietarioEmail":"xxxx@dominio.com.br",
+            "ProprietarioTelefone":"00000000000"
         }        
     ]
 }
